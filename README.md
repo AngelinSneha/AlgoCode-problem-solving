@@ -1,5 +1,5 @@
-#Algocode-problem-solving
+# Algocode-problem-solving
 
 ----------------------------------------------------------------------
 
-###An online Platform for coding interview preperation
+#### An online Platform for coding interview preperation

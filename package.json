@@ -1,0 +1,27 @@
+{
+  "name": "algocode-problem-solving",
+  "version": "1.0.0",
+  "description": "A online Platform for coding interview preperation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngelinSneha/AlgoCode-problem-solving.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Angelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngelinSneha/AlgoCode-problem-solving/issues"
+  },
+  "homepage": "https://github.com/AngelinSneha/AlgoCode-problem-solving#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
+}

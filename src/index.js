@@ -4,6 +4,7 @@ const apiRoute = require("./routes");
 const connectDB = require("../config/db.config");
 
 const { PORT } = require("../config/server.config");
+const errorHandler = require("./utils/errorHandler");
 const app = express();
 
 app.use(bodyParser.json());
@@ -15,6 +16,7 @@ app.use("/api", apiRoute);
 app.get("/ping", function (req, res) {
   return res.json({ message: "Serive is alive" });
 });
+app.use(errorHandler);
 
 app.listen(PORT, async () => {
   console.log(`Server starter on port: ${PORT}`);

@@ -18,8 +18,12 @@ class ProblemService {
     return problems;
   }
   async getProblem(id) {
-    const problems = await this.problemRepository.getProblem(id);
-    return problems;
+    const problem = await this.problemRepository.getProblem(id);
+    return problem;
+  }
+  async deleteProblem(id) {
+    const problem = await this.problemRepository.deleteProblem(id);
+    return problem;
   }
 }
 

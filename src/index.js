@@ -1,10 +1,10 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const apiRoute = require("./routes");
-const connectDB = require("../config/db.config");
+const connectDB = require("./config/db.config");
 const Problem = require('./models/problem.model')
 
-const { PORT } = require("../config/server.config");
+const { PORT } = require("./config/server.config");
 const errorHandler = require("./utils/errorHandler");
 const app = express();
 

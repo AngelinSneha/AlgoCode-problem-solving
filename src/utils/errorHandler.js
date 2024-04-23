@@ -1,6 +1,6 @@
 const { StatusCodes } = require("http-status-codes");
 const BaseError = require("../errors/base.error");
-const logger = require("../../config/logger.config");
+const logger = require("../config/logger.config");
 
 function errorHandler(err, req, res, next) {
   if (err instanceof BaseError) {

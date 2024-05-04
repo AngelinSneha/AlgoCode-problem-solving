@@ -6,7 +6,7 @@ const NotImplemented = require("../errors/notImplemented.error");
 const problemService = new ProblemService(new ProblemRepository());
 
 function pingProblemController(req, res) {
-  return res.json({ message: "Problem controller is up" });
+  return res.status(200).json({ message: "Problem controller is up" });
 }
 
 async function addProblem(req, res, next) {

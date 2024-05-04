@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/api", apiRoute);
 
 app.get("/ping", function (req, res) {
-  return res.json({ message: "Serive is alive" });
+  return res.status(200).json({ message: "Serive is alive" });
 });
 app.use(errorHandler);
 

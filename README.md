@@ -22,7 +22,7 @@ Algocode-problem-solving is an online platform designed for coding interview pre
 
 - **Evaluation Service**: The code evaluation service responsible for assessing submitted code is hosted at [Algocode-Evaluate-Service](https://github.com/AngelinSneha/Algocode-Evaluate-Service).
 
-- **Submission Service**: Handles the submission process of user code submissions. Code is processed and evaluated by [Algocode-Submission-Service](https://github.com/AngelinSneha/Algocode-Submission-Service).
+- **Submission Service**: Manages the submission of user code to the queue using [Algocode-Submission-Service](https://github.com/AngelinSneha/Algocode-Submission-Service), allowing the evaluation service to process it through BullMQ.
 
 ---
 

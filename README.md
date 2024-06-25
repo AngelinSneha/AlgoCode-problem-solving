@@ -1,15 +1,35 @@
 # Algocode-problem-solving
 
-----------------------------------------------------------------------
+---
 
-#### An online Platform for coding interview preperation
+## Overview
 
-- The Admin can enter the question/problem from the portal
-    The questions entered by the user is sanitized to make sure there is no malicious code
+Algocode-problem-solving is an online platform designed for coding interview preparation. It leverages microservices architecture to handle various aspects of coding problem submission, evaluation, and administration.
 
-- `winston` package is used to log errors if any.
+---
 
+## Features
 
-#### How to Start the Service
+- **Admin Dashboard**: Allows administrators to enter coding questions securely through a portal. Input sanitization ensures that no malicious code is accepted.
 
-- npm run dev
+- **Error Logging**: Utilizes the `winston` package for comprehensive error logging, ensuring easy tracking and resolution of issues.
+
+---
+
+## Project Structure
+
+- **Frontend Repository**: The frontend code for Algocode is available at [Algocode-Frontend](https://github.com/AngelinSneha/AlgoCode-Frontend).
+
+- **Evaluation Service**: The code evaluation service responsible for assessing submitted code is hosted at [Algocode-Evaluate-Service](https://github.com/AngelinSneha/Algocode-Evaluate-Service).
+
+- **Submission Service**: Handles the submission process of user code submissions. Code is processed and evaluated by [Algocode-Submission-Service](https://github.com/AngelinSneha/Algocode-Submission-Service).
+
+---
+
+## How to Start the Service
+
+To run the Algocode-problem-solving service locally, follow these steps:
+
+   ```bash
+   npm install
+   npm run dev

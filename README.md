@@ -23,6 +23,12 @@ Algocode-problem-solving is an online platform designed for coding interview pre
 
 ---
 
+## Architecture
+<img width="724" alt="image" src="https://github.com/user-attachments/assets/0b055e7e-2270-44ce-a1ac-6a1edb75af6b">
+
+
+---
+
 ## How to Start the Service
 
 To run the Algocode-problem-solving service locally, follow these steps:

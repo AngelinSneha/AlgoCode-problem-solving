@@ -46,7 +46,7 @@ async function getProblems(req, res, next) {
       error: {},
       data: response,
     });
-    
+
   } catch (e) {
     next(e);
   }
@@ -61,7 +61,7 @@ async function deleteProblem(req, res, next) {
       error: {},
       data: response,
     });
-    
+
   } catch (e) {
     next(e);
   }
@@ -77,7 +77,7 @@ async function updateProblem(req, res, next) {
       error: {},
       data: response,
     });
-    
+
   } catch (e) {
     next(e);
   }
